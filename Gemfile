@@ -5,6 +5,6 @@ gemspec
 
 gem "mysql2", "~> 0.5.2", platform: :ruby
 gem "jdbc-mysql", platform: :jruby
-gem "activerecord-jdbc-adapter", "~> 5.0", platform: :jruby
+gem "activerecord-jdbc-adapter", "~> 7.0", platform: :jruby
 gem "ffi-geos", platform: :jruby
 gem "byebug" if ENV["BYEBUG"]
